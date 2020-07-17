@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Comentário | Aprenda Shell.</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link rel="stylesheet" type="text/css" href="../../style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="Description" content="Shebang Shell Script">
+    <meta name="author" content="Jefferson Rocha">
+    <link rel="icon" href="../../icon.png">
+</head>
+<body>
+
+<main>
+	<h2 class="artigo">Comentário</h2>
+	<hr>
+
+<p>
+Comentários em Shell Script são feitas de uma forma muito simples, bastando adicionar uma cerquilha e logo após o que será comentado! O mesmo não é interpretado pelo bash, então você pode ter 2 linhas de código e 200 comentários que não vai pesar quando executar. Claro o tamanho do script irá aumentar, mas nada além disso.
+</p>
+
+<pre>
+<b>#</b> Isto é um comentário no Shell bash.
+<b>#</b> Perceba que não será interpretado...
+<b>#</b> Uhulll Tô gostando disso! Eu posso escrever um poema?
+</pre>
+
+<p>
+Mas com grandes poderes vem grandes...??? comentários claro. Existem algumas formas de criar comentários em seus programas:
+</p>
+
+<h3>Em linha</h3>
+<p>
+Este tipo de comentário é o que você vai mais usar.
+</p>
+
+<pre>
+<b>#</b> Vamos executar o comando ls para listar alguma coisa no diretório home do slackjeff.
+ls ~/Music
+</pre>
+
+<h3>Meia linha</h3>
+<p>
+É um comentário <b>mais direto</b> e muito utilizado em meia linha.
+</p>
+
+<pre>
+ls ~/Music <b>#</b> Listando diretório Music em slackjeff.
+</pre>
+
+
+<h3>Bloco</h3>
+<p>
+É o mais completo, como o próprio nome já diz. Aqui você pode escrever textão mesmo, tudo que precisa para alertar você no futuro, ou apenas para explicar o que aquele trecho de código faz.
+
+<pre>
+##############################################################################
+<b>#</b> Este trecho é complexo, por isso vou usar o comentário em bloco.
+<b>#</b> Bom, vamos listar no diretório Music na home do usuário para saber
+<b>#</b> se existe uma música do Metallica por lá.
+<b>#</b> Se existir vamos continuar e enviar todas músicas do Metallica para meu
+<b>#</b> Servidor com rsync.
+##############################################################################
+ls ~/Music/*Metallica*
+</pre>
+
+</main>
+
+<a href="shebang.html">Voltar</a> - <a href="comentario.html">Próximo</a>
+
+<hr>
+
+<footer>
+	Copyright (c) 2020 Aprenda Shell.
+</footer>
+</body>
+</html>
